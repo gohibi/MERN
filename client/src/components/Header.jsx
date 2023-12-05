@@ -12,12 +12,12 @@ export default function Header() {
                 <span className='text-red-700'>21</span>
             </h1>
             </Link>
-          <ul className="flex gap-4">
+           <ul className="flex gap-4">
            <Link to="/"> <li className='hidden sm:inline text-gray-950 text-lg hover:underline'>Accueil</li></Link>
            <Link to="/a propos">  <li className='hidden sm:inline text-gray-950 text-lg hover:underline'>A propos</li></Link>
            <Link to="/connexion">  <li className='hidden sm:inline text-gray-950 text-lg hover:underline'>Connexion</li> </Link>
                 
-        </ul>
+           </ul>
         <form className='bg-slate-200 p-3 rounded-lg flex items-center'>
             <input type="text" placeholder='Recherche...' className='bg-transparent text-lg focus:outline-none w-24 sm:w-64'/>
             <FaSearch className='text-slate-500'/>

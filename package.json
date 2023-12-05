@@ -1,7 +1,9 @@
 {
   "dependencies": {
     "client": "^0.0.1",
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
+    "mongoose": "^8.0.2",
     "nodemon": "^3.0.2",
     "vite": "^5.0.5"
   },
@@ -10,8 +12,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-   "dev":"nodemon serveur/index.js",
-   "start":"node serveur/index.js"
+    "dev": "nodemon serveur/index.js",
+    "start": "node serveur/index.js"
   },
   "keywords": [],
   "author": "",
